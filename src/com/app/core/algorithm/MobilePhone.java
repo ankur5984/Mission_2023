@@ -60,7 +60,7 @@ public class MobilePhone {
 
 
     public int findContact(String contactName) {
-        int index = 0;
+        int index = -1;
         for(Contact contact: this.myContacts){
             if(contact.getName().equals(contactName)){
                 index =  findContact(contact);
